@@ -21,15 +21,21 @@
             <form>
                 <div class="text-box1">
                     <label for="input-text">Ingrese el texto aqui</label>
-
-
+                    <textarea name="input-text" id="input-text" cols="30" rows="10" class="form-control" style="resize: none" spellcheck="false"></textarea>
+                    <br>
+                    <input type="button" value="Encriptar" id="boton-encriptar" class="btn btn-primary btn-sm">
+                    <input type="button" value="Desencriptar" id="boton-encriptar" class="btn btn-primary btn-sm">
                 </div>
             </form>
-
+            <form>
+                <div class="text-box2">
+                    <label for="input-text">Texto encriptado / desencriptado</label>
+                    <textarea name="encrypted-text" id="encrypted-text" cols="30" rows="10" class="form-control" style="resize: none" spellcheck="false"></textarea>
+                    <br>
+                    <input type="button" value="Copiar texto" id="boton-transfer" class="btn btn-primary btn-sm">
+                </div>
+            </form>
         </div>
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
-        <button class="button-copiar">Copiar</button>
     </main>
 
     <script src="./js/transfer.js"></script>
